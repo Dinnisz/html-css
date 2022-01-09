@@ -1,0 +1,17 @@
+@charset "UTF_8";
+    @font-face {
+        font-family: 'dinis';
+        src: url('Fontes/CevicheOne-Regular.ttf') format('truetype');
+        font-weight:normal;
+        font-style: normal;
+    
+
+    } 
+h1{
+        font-family: 'dinis', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+    }   
+body{
+    font-size:20px;
+}
+  

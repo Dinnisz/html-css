@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+    }
+    a:visited{
+        color:brown
+    }
+    a:hover{
+        text-decoration: underline;
+        color: black;
+    }
+    a:active{
+        color:blueviolet;
+    }
+    a.especial::after{
+        content: '            ---';
+    }
+    .especial{
+        background-color: rgb(206, 93, 115);
+    }
+    .especial::before{
+        content: '            ---';
+    }
+</style>
+<body>
+    <h1>Personalizando lista</h1>
+    <ul>
+        <li><a class="especial" href="https://www.youtube.com/watch?v=iaqDvTO9vOk" target="_blank">Repositório GitHUb</a></li>
+        <li><a href="https://www.twitch.tv/">Canal Youtube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xifvTCfvaS4" >Site Dinis</a></li>
+    </ul>
+    
+
+  </form>
+</body>
+</html>
